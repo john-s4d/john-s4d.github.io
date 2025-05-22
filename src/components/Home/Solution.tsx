@@ -11,7 +11,7 @@ const solutionCards = [
   },
   {
     title: 'Permanent Remediation of Root Issues',
-    description: 'I build and implement the solutions, whether that\'s rewriting brittle logic, eliminating deep-rooted tech debt, I ensure the issues I solve today don\'t reappear tomorrow'
+    description: 'I build and implement the solutions, whether that\'s rewriting brittle logic or eliminating deep-rooted tech debt, I ensure the issues I solve today don\'t reappear tomorrow'
   },
   {
     title: 'Security, Compliance & Platform Stability',
@@ -31,11 +31,8 @@ export default function SolutionOverview() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            I align, lead, and deliver so your systems don't fail when it matters most.
-          </h2>
-          <p className="text-lg text-gray-400 max-w-3xl mx-auto">
-            From collaboration through stability, I bring clarity, performance, and durability.
-          </p>
+            Hi, I'm John Sessford. I'm helping organizations navigate technical complexities with clarity and proven outcomes.
+          </h2>          
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

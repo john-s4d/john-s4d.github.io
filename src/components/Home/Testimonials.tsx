@@ -1,6 +1,6 @@
 const testimonials = [
-  { name: "VP Engineering, SaaS", quote: "John came in, diagnosed the issue in days, and saved our launch." },
-  { name: "CTO, Fintech", quote: "He’s the only person I’ve seen explain an outage root cause and get everyone nodding—legal, dev, execs." }
+  { name: "Senior Director", quote: "I want to specifically call out John Sessford, who truly went the extra mile to ultimately identify root cause. Great work everyone!" },
+  { name: "Customer Success Manager", quote: "Your technical expertise in digging through the logs and surfacing the exact root cause not only helped R&D fix such complex known issue in such a short time (less than 24 hours) but also prevented future occurrences for other customers." }
 ];
 
 const Testimonials = () => (

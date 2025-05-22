@@ -1,12 +1,10 @@
 const baseLogos = [
-  '/logos/cisco.svg',
-  '/logos/hpe.svg',
-  '/logos/gm.svg',
-  '/logos/jpmc.svg',
-  '/logos/amex.svg',
-  '/logos/toyota.svg',
-  '/logos/gehealthcare.svg',
-  '/logos/morganstanley.svg'
+  '/images/salesforce.png',
+  '/images/cisco.svg',
+  '/images/hpe.svg',
+  '/images/amex.svg',
+  '/images/gehc.png',
+  '/images/humana.svg',
 ];
 
 const companyLogos = Array(3).fill(baseLogos).flat()
@@ -18,7 +16,7 @@ const Logos = () => (
         Who I've Supported
       </h2>
       <p className="text-sm text-gray-500 mt-1">
-        Including roles at Salesforce and beyond
+        While in roles at Salesforce and beyond, I've collaborated with these companies and many more.
       </p>
     </div>
     <div className="relative bg-[#111]">
@@ -26,13 +24,14 @@ const Logos = () => (
         <div className="relative overflow-hidden">
           <div className="flex items-center space-x-12 animate-carousel-normal min-w-[200%]">
             {companyLogos.map((logo, index) => (
-              <div key={index} className="flex-shrink-0">
+              <div key={index} className="flex-shrink-0 h-12 md:h-16 w-32 flex items-center justify-center">
                 <img
                   src={logo}
                   alt={`Company logo ${index + 1}`}
-                  className="h-10 md:h-12 w-24 object-contain grayscale hover:grayscale-0 transition duration-300"
+                  className="max-h-full max-w-full object-contain"
                 />
               </div>
+
             ))}
           </div>
         </div>

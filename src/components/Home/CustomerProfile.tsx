@@ -33,7 +33,7 @@ const CustomerProfile = () => (
           </div>
 
           {/* Description block */}
-          <div className={`md:w-1/2 ${p.align === "right" ? "text-right" : "text-left"}`}>
+          <div className={`md:w-1/2 text-center`}>
             <div className="bg-[#1a1a1a] rounded-xl p-6 w-full text-gray-400">
               <p>{p.desc}</p>
             </div>

@@ -23,7 +23,7 @@ const Hero = () => (
         className="inline-flex items-center gap-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white px-6 py-3 rounded-xl text-base font-semibold shadow-lg hover:shadow-indigo-700/50 transform hover:scale-105 transition duration-200"
       >
         <Calendar className="w-5 h-5" />
-        Book a Discovery Call
+        Book a Discovery Call with John Sessford
       </a>
 
       {/* 🔗 LinkedIn Link */}
