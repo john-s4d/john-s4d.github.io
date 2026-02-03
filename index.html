@@ -10,6 +10,23 @@
 
       gtag('config', 'G-YKE4L9038S');
     </script>
+    <script>
+      // GitHub Pages SPA redirect support.
+      // If we were redirected from /404.html to /?/some/route, restore the intended route.
+      (function () {
+        var search = window.location.search;
+        if (search && search.length > 1 && search[1] === '/') {
+          var decoded = search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(null, '', decoded + window.location.hash);
+        }
+      })();
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

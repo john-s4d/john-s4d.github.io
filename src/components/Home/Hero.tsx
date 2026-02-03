@@ -28,7 +28,7 @@ const Hero = () => (
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-indigo-400/70 text-base font-semibold text-indigo-200 hover:bg-indigo-500/10 transition-colors"
         >
-          LinkedIn
+          Connect on LinkedIn
         </a>
       </div>
 

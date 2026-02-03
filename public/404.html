@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting…</title>
+    <script>
+      // GitHub Pages SPA fallback.
+      // When a direct visit to /some/route returns 404, this file runs and redirects to
+      // /?/<some/route> so index.html can restore the intended path.
+      (function () {
+        var l = window.location;
+        var redirect =
+          l.protocol +
+          '//' +
+          l.host +
+          l.pathname.replace(/\/[^\/]*$/, '/') +
+          '?/' +
+          l.pathname.replace(/\/$/, '') +
+          l.search.replace(/^\?/, '&') +
+          l.hash;
+        l.replace(redirect);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
