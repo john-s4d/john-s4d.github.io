@@ -4,9 +4,9 @@ const testimonials = [
 ];
 
 const Testimonials = () => (
-  <section className="py-16 px-6 text-center bg-[#0F0F0F]">
+  <section className="py-16 px-6 md:px-12 text-center bg-[#0F0F0F]">
     <h2 className="text-3xl font-bold mb-8">What Leaders Say</h2>
-    <div className="space-y-8 max-w-3xl mx-auto">
+    <div className="space-y-8 max-w-5xl mx-auto">
       {testimonials.map((t, i) => (
         <div key={i}>
           <blockquote className="italic text-xl text-white">“{t.quote}”</blockquote>
