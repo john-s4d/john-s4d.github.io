@@ -1,5 +1,19 @@
 # React + TypeScript + Vite
 
+## Deploy (GitHub Pages)
+
+- Source lives on the `main` branch.
+- Production build is published to the `gh-pages` branch.
+
+Commands:
+
+- Dev: `npm run dev`
+- Deploy: `npm run deploy`
+
+## Resume
+
+Put PDFs in `public/` so they deploy with a stable URL. Example: `public/John_Sessford_Resume_2026_AI_Architect.pdf` → `https://ikailo.com/John_Sessford_Resume_2026_AI_Architect.pdf`.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
