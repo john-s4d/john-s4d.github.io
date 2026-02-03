@@ -16,40 +16,31 @@ const Hero = () => (
       </h1>
 
       <p className="text-lg text-gray-300 mb-8">
-        I help teams build agentic AI systems grounded in their own data, with secure workflows that
-        ship and scale. 
+        I help teams build agentic AI systems grounded in their data, with secure workflows that ship
+        and scale.
       </p>
-{ /*
+
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
-
-
         <a
-          href="/John_Sessford_Resume_2026_AI_Architect.pdf"
+          href="/resume/"
           className="inline-flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white px-6 py-3 rounded-xl text-base font-semibold shadow-lg hover:shadow-indigo-700/50 transform hover:scale-105 transition duration-200"
         >
-          Download Resume
+          Resume
         </a>
 
-       <a
-          href="#jarvisgpt"
-          className="inline-flex items-center justify-center px-5 py-3 rounded-xl border border-indigo-400 text-sm font-semibold text-indigo-200 hover:bg-indigo-500/10 transition-colors"
-        >
-          JarvisGPT Case Study
-        </a> 
-      </div>
-*/ }
-      <div className="mt-6">
         <a
           href="https://www.linkedin.com/in/john-sessford"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-indigo-400 hover:text-indigo-300 underline"
+          className="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-indigo-400/70 text-base font-semibold text-indigo-200 hover:bg-indigo-500/10 transition-colors"
         >
-          Connect on LinkedIn
+          LinkedIn
         </a>
       </div>
-      <p className="mt-6 max-w-2xl mx-auto">
-        Available for senior architect, staff/principal IC, or advisory roles focused on real-world AI systems.
+
+      <p className="mt-6 text-sm max-w-2xl mx-auto text-gray-300/90">
+        Available for senior architect, staff/principal IC, or advisory roles focused on real-world AI
+        systems.
       </p>
     </div>
   </section>
