@@ -43,12 +43,12 @@ const Hero = () => (
           href="https://www.linkedin.com/in/john-sessford"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-sm text-indigo-400 hover:text-indigo-300 underline"
+          className="text-indigo-400 hover:text-indigo-300 underline"
         >
           Connect on LinkedIn
         </a>
       </div>
-      <p className="mt-6 text-sm max-w-2xl mx-auto">
+      <p className="mt-6 max-w-2xl mx-auto">
         Available for senior architect, staff/principal IC, or advisory roles focused on real-world AI systems.
       </p>
     </div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function JarvisCaseStudyPage() {
   useEffect(() => {
-    document.title = 'JarvisGPT at Foresight  Case Study  Ikailo';
+    document.title = 'JarvisGPT at Foresight - Case Study - Ikailo';
   }, []);
 
   return (
