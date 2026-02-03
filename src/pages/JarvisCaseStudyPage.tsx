@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-function JarvisCaseStudy() {
+function JarvisCaseStudyPage() {
   useEffect(() => {
     document.title = 'JarvisGPT at Foresight  Case Study  Ikailo';
   }, []);
@@ -211,4 +211,4 @@ function JarvisCaseStudy() {
   );
 }
 
-export default JarvisCaseStudy;
+export default JarvisCaseStudyPage;
