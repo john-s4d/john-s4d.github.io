@@ -22,10 +22,10 @@ const Hero = () => (
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
         <a
-          href="/resume.pdf"
+          href="/John_Sessford_Resume_2026_AI_Architect.pdf"
           className="inline-flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white px-6 py-3 rounded-xl text-base font-semibold shadow-lg hover:shadow-indigo-700/50 transform hover:scale-105 transition duration-200"
         >
-          View Resume
+          Download Resume
         </a>
 
 { /*       <a
