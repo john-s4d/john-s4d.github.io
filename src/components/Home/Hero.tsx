@@ -20,13 +20,7 @@ const Hero = () => (
         and scale.
       </p>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">
-        <a
-          href="/resume/"
-          className="inline-flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white px-6 py-3 rounded-xl text-base font-semibold shadow-lg hover:shadow-indigo-700/50 transform hover:scale-105 transition duration-200"
-        >
-          Resume
-        </a>
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-6">        
 
         <a
           href="https://www.linkedin.com/in/john-sessford"
@@ -38,9 +32,8 @@ const Hero = () => (
         </a>
       </div>
 
-      <p className="mt-6 text-sm max-w-2xl mx-auto text-gray-300/90">
-        Available for senior architect, staff/principal IC, or advisory roles focused on real-world AI
-        systems.
+      <p className="mt-6 mx-auto text-gray-300">
+        Available for senior architect, staff/principal IC, or advisory roles focused on real-world AI systems.
       </p>
     </div>
   </section>
